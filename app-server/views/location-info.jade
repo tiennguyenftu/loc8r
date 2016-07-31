@@ -52,7 +52,7 @@ block content
                     .well.well-sm.review-header
                       span.rating
                         +outputRating
-                      span.reviewAuthor #{review.rating}
+                      span.reviewAuthor #{review.author}
                       small.reviewTimestamp #{review.timeStamp}
                     .col-xs-12
                       p !{(review.reviewText).replace(/\n/g, '<br/>')}
